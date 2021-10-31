@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'wa-appsrv-sql-demo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D92DDCA9927498A8D6C1B48DDFF9BB3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA48D4B6CBEA4576B7F2D8BC19395C3F }}
           package: .
