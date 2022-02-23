@@ -8,6 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+env:
+  AZURE_WEBAPP_PACKAGE_PATH: 'D:\a\github-actions-demo\github-actions-demo'
 
 jobs:
   build:
@@ -54,5 +56,5 @@ jobs:
           app-name: 'wa-appsrv-sql-demo'
           slot-name: 'staging'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: .
+          package: ${{ AZURE_WEBAPP_PACKAGE_PATH }}
           
