@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 env:
   AZURE_WEBAPP_NAME: wa-appsrv-sql-demo-staging
-  AZURE_WEBAPP_PACKAGE_PATH: '.'
+  AZURE_WEBAPP_PACKAGE_PATH: ' D:\a\github-actions-demo\github-actions-demo'
   DOTNET_VERSION: '5.0.x'
 
 jobs:
