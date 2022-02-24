@@ -4,7 +4,7 @@ This repository is meant to help bootstrap users of the Azure Web App service to
 
 ## What's In This Repo?
 
-This repo contains a web app and instructions on how to provision the Azure services and build and deploy the web app.
+### This repo contains a web app and instructions on how to provision the Azure services and build and deploy the web app.
 ---
 languages:
 - csharp
