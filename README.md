@@ -96,7 +96,7 @@ This project has adopted the Microsoft Open Source Code of Conduct(https://opens
   * az webapp config connection-string set --resource-group <rg_name> --name <web_app_name> --settings MyDbConnection='<db_connect_string>' --connection-string-type SQLAzure
 
 * Configure the Azure deployment to use the main branch of the remote git repo
-  * az webapp config appsettings set --name <web_app_name> --resource-group <rg_name> --settings DEPLOYMENT_BRANCH='<branch>'
+  * az webapp config appsettings set --name <web_app_name> --resource-group <rg_name> --settings DEPLOYMENT_BRANCH='<branch-name>'
 
 * Add a remote deployment git repo using the local git repo URL for the web app that was saved previously
   * git remote add azure <web_app_local_repo_url>
