@@ -49,8 +49,8 @@ This project has adopted the Microsoft Open Source Code of Conduct(https://opens
 
 * Update the application code to connect to the Azure SQL Database instead of the local SQLite database
   * Update the Startup.cs file
-    Replace: services.AddDbContext<MyDatabaseContext>(options => options.UseSqlite("Data Source=localdatabase.db"));
-    With: services.AddDbContext<MyDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
+    * Replace: services.AddDbContext<MyDatabaseContext>(options => options.UseSqlite("Data Source=localdatabase.db"));
+    * With: services.AddDbContext<MyDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyDbConnection")));
 
 * Delete the database migrations associated with the SQLite database
   * rm -r Migrations
