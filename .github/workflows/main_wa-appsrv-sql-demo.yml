@@ -6,10 +6,12 @@ name: Build and deploy ASP.Net Core app to Azure Web App - wa-appsrv-sql-demo
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
       - '*'
+  workflow_dispatch:
+  
 # CONFIGURATION
 # For help, go to https://github.com/Azure/Actions
 #
