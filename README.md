@@ -4,15 +4,20 @@ This repository is meant to help bootstrap users of the Azure Web App service to
 
 ## What's In This Repo?
 
-This repo contains a web app and instructions on how to provision the Azure services and build and deploy the web app.
+### This repo contains a web app and instructions on how to provision the Azure services and build and deploy the web app.
 ---
-languages:
+Languages:
 - csharp
 - aspx-csharp
+<<<<<<< HEAD
 page_type: sample
 description: "This is a sample application you can use to follow along w/ the Build a .NET Core and SQL Database web app in Azure Web Apps for Containers tutorial."
 products:
 - aspnet-core-5
+=======
+
+Products:
+>>>>>>> a80045e443a69ddd2cbe98c55b0c51926d1d3f8e
 - azure
 - azure-app-service
 - azure-sql
